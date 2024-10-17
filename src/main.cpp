@@ -345,7 +345,7 @@ void BenchAll() {
 	fclose(fp);
 }
 
-int main() {
+int main(void) {
 	// sort tests
 	TestList& tests = TestManager::Instance().GetTests();
 	std::sort(tests.begin(), tests.end());
